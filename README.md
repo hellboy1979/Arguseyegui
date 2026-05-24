@@ -1,2 +1,2 @@
-# Arguseyegui
-arguseye with gui
+# ArgusEyeGui
+ArgusEye with Gui
