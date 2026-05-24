@@ -27,6 +27,12 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Initialize colors
 init(autoreset=True)
 
+# Avvia code.py in parallelo dalla stessa cartella
+app_dir = os.path.dirname(os.path.abspath(__file__))
+code_path = os.path.join(app_dir, "code.py")
+
+subprocess.Popen([sys.executable, code_path], cwd=app_dir)
+
 # ------------------- Shared Utilities -------------------
 def get_user_agent(name='random') -> str:
     """Randomly select a User-Agent."""
