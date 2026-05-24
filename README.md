@@ -37,10 +37,12 @@ cd storage/downloads/
 git clone https://github.com/hellboy1979/Arguseyegui
 ```
 ```bash
-cd ArgusEye
+cd Arguseyegui
 ```
 ```bash
-python ArgusEye.py
+python ArgusEye.py for use app fromterminal
+
+python ArgusEye_GUI.py for use with GUI
 ```
 ### Paso 4: Funcionalidades del Menú
 # El script te guiará a través de un menú intuitivo. Aquí tienes un desglose de cada opción:
